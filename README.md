@@ -19,25 +19,25 @@ pip install numpy matplotlib
  
 | Script | Section | What it does |
 |---|---|---|
-| `rng_role_engine.py` | §6.2 | Game-of-Life run: deterministic world closes into a cycle; a randomness generator postpones / removes closure. |
-| `make_fig_closure.py` | §6.2 (Fig.) | Generates `fig_rng_cycle_closure.pdf` (linear) and the log-scale variant. |
-| `cirelson_geometry_test.py` | §6.4 | Where 2√2 actually comes from (4·cos45°); checks the square-diagonal coincidence vs the genuine ratio √2. |
-| `figure_eight_square.py` | §6.4 | Figure-eight in a 2×2 square; verifies the corner→centre→corner path = 2√2 exactly. |
-| `side_two_independent.py` | §6.4 | Shows the classical bound 2 is a theorem of binarity (exhaustive enumeration of ±1 assignments). |
-| `sqrt2_from_closure.py` | §6.4 | Derives the √2 factor from the closure-point path (Pythagoras) under Alice–Bob symmetry. |
-| `make_fig_eight.py` | §6.4 (Fig.) | Generates `fig_figure_eight_2x2.pdf`. |
-| `born_agreement_test.py` | §6.6 | The "between 0 and 1" number = cos²(θ/2) = Born; shows the math exists but the square is posited (linear vs cosine correlation laws). |
-| `make_fig_structure.py` | §6.7 (Fig.) | Generates `fig_three_element_structure.pdf` (observable event = triple; state = pair, value indefiniteness). |
-| `games_rng_role_ORIGINAL.py` | §6.2 | Original early run kept for provenance (superseded by `rng_role_engine.py`). |
+| `rng_role_engine.py` | §5.2 | Game-of-Life run: deterministic world closes into a cycle; a randomness generator postpones / removes closure. |
+| `make_fig_closure.py` | §5.2 (Fig.) | Generates `fig_rng_cycle_closure.pdf` (linear) and the log-scale variant. |
+| `cirelson_geometry_test.py` | §5.4 | Where 2√2 actually comes from (4·cos45°); checks the square-diagonal coincidence vs the genuine ratio √2. |
+| `figure_eight_square.py` | §5.4 | Figure-eight in a 2×2 square; verifies the corner→centre→corner path = 2√2 exactly. |
+| `side_two_independent.py` | §5.4 | Shows the classical bound 2 is a theorem of binarity (exhaustive enumeration of ±1 assignments). |
+| `sqrt2_from_closure.py` | §5.4 | Derives the √2 factor from the closure-point path (Pythagoras) under Alice–Bob symmetry. |
+| `make_fig_eight.py` | §5.4 (Fig.) | Generates `fig_figure_eight_2x2.pdf`. |
+| `born_agreement_test.py` | §5.6 | The "between 0 and 1" number = cos²(θ/2) = Born; shows the math exists but the square is posited (linear vs cosine correlation laws). |
+| `make_fig_structure.py` | §5.7 (Fig.) | Generates `fig_three_element_structure.pdf` (observable event = triple; state = pair, value indefiniteness). |
+| `games_rng_role_ORIGINAL.py` | §5.2 | Original early run kept for provenance (superseded by `rng_role_engine.py`). |
  
 ## Figures
  
 | File | Section |
 |---|---|
-| `fig_rng_cycle_closure.pdf` / `.png` | §6.2 — cycle closure vs generator strength |
-| `fig_rng_cycle_closure_log.pdf` | §6.2 — log-scale variant (supplementary) |
-| `fig_figure_eight_2x2.pdf` / `.png` | §6.4 — figure-eight, corner→centre→corner = 2√2 |
-| `fig_three_element_structure.pdf` / `.png` | §6.7 — observable event (triple) and state (pair) |
+| `fig_rng_cycle_closure.pdf` / `.png` | §5.2 — cycle closure vs generator strength |
+| `fig_rng_cycle_closure_log.pdf` | §5.2 — log-scale variant (supplementary) |
+| `fig_figure_eight_2x2.pdf` / `.png` | §5.4 — figure-eight, corner→centre→corner = 2√2 |
+| `fig_three_element_structure.pdf` / `.png` | §5.7 — observable event (triple) and state (pair) |
  
 ## How to run
  
@@ -56,7 +56,7 @@ python3 make_fig_structure.py
  
 ## Status note
  
-Per the paper's status discipline: these runs are **illustrations and consistency checks**, not independent confirmations. The classical bound 2 is genuinely derived (binarity); the Tsirelson factor 2√2 is reconstructed under an explicit closure-point hypothesis; the Born value is reproduced but reinterpreted, not derived. See the paper's Section 3 (Status and Scope) and the per-section status notes.
+Per the paper's status discipline: these runs are **illustrations and consistency checks**, not independent confirmations. The classical bound 2 is genuinely derived (binarity); the Tsirelson factor 2√2 is reconstructed under an explicit closure-point hypothesis; the Born value is reproduced but reinterpreted, not derived. See the paper's Status and Scope section and the per-section status notes.
  
 ## Citation
  
@@ -65,3 +65,4 @@ If you use this material, please cite the preprint (DOI to be added upon deposit
 ## License
  
 Code released under the MIT License. Figures © United Field Initiative, CC BY 4.0.
+ 
